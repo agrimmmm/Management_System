@@ -1,0 +1,129 @@
+.cardx {
+  border-color: rgba(22, 22, 22, 0.8);
+  width: 400%;
+  background-color: rgb(255, 255, 255);
+  /* padding: auto; */
+}
+
+.carde {
+  min-width: 100vw;
+  background-color: rgb(255, 255, 255);
+  border-color: rgba(22, 22, 22, 0.8);
+}
+
+.card {
+  background-color: rgb(255, 255, 255);
+  border-color: rgba(22, 22, 22, 0.8);
+}
+
+.align-center {
+  padding-left: 2%;
+}
+
+.card-old {
+  width: 70%;
+}
+
+.align-center-dif {
+  padding-left: 15%;
+}
+
+.purchase-form {
+  color: white;
+  background-color: rgba(22, 22, 22, 0.8);
+}
+
+.row {
+  text-align: left;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+}
+
+.btn-color {
+  background-color: #a41d1d;
+  width: 100px;
+  height: 50px;
+  border-color: #a41d1d;
+  box-shadow: none;
+}
+
+.btn-color:hover {
+  background-color: #8a0a0a;
+  border-color: #8a0a0a;
+}
+
+.btn-color:clicked {
+  background-color: #a41d1d;
+  border-color: #a41d1d;
+  box-shadow: none;
+}
+
+.form-control {
+  background-color: rgba(22, 22, 22, 0.4);
+  border: none;
+  color: white;
+}
+
+.form-control:focus {
+  background-color: rgba(22, 22, 22, 0.15);
+  color: white;
+}
+
+input[type="file"]::file-selector-button {
+  box-shadow: none;
+  background-color: rgb(147, 158, 167);
+  color: black;
+}
+
+.table-color {
+  background-color: rgba(22, 22, 22, 0.8);
+  color: white;
+}
+
+.fixed-column {
+  width: 2px;
+}
+
+.dropdown-option {
+  background-color: rgba(22, 22, 22, 0.8);
+}
+
+.dropdown-option:hover {
+  background-color: #8a0a0a;
+}
+
+.file-btn {
+  background-color: inherit;
+  color: #000000;
+  border: none;
+}
+
+.file-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+.filter-button {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-color: rgba(22, 22, 22, 0.15);
+  border-radius: 5px;
+  padding: 3px 5px;
+  box-shadow: none;
+}
+
+.save-button {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-color: rgba(22, 22, 22, 0.15);
+  border-radius: 5px;
+  padding: 4px 10px;
+  box-shadow: none;
+}

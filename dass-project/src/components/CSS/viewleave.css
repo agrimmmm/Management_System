@@ -1,0 +1,62 @@
+/* Table Styles */
+.tableT {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    color:white;
+  }
+  
+  .rowT {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .Thead {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+ 
+  
+  .Tsimp:hover {
+    background-color: green;
+  }
+  
+  /* Button Styles */
+  .buttonT {
+    padding: 8px 12px;
+    margin: 4px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .buttonT:hover {
+    background-color: #45a049;
+  }
+  
+  .reject-button {
+    background-color: #f44336;
+  }
+  
+  .reject-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  @media (max-width: 768px) {
+    .tableT {
+      font-size: 14px;
+    }
+  
+    .rowT {
+      padding: 8px;
+    }
+  
+    .buttonT {
+      padding: 6px 10px;
+      font-size: 12px;
+    }
+  }
